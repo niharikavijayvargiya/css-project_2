@@ -1,0 +1,105 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+:root {
+    --primaryOrange: rgb(254, 166, 133);
+    --primaryBlue: rgb(52, 201, 255);
+    --secondaryBlue: rgb(162, 225, 253);
+    --primaryGrey: rgb(217, 217, 217);
+    --secondaryGrey: rgb(233, 233, 233);
+}
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.mainDiv {
+    background-color: white;
+    height: 100vh;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.divBody {
+    padding: 25px;
+    margin-left: 28px;
+}
+
+header {
+    width: 80%;
+    margin-left: 5%;
+    padding: 25px;
+    background-color: var(--primaryOrange);
+}
+
+nav {
+    margin-top: 3%;
+    background-color: var(--primaryOrange);
+    display: flex;
+    width: 88%;
+    margin-left: 5%;
+}
+
+.navEle {
+    text-align: center;
+    margin: 6px 0;
+    width: 30%;
+}
+
+.navBoxex {
+    display: flex;
+}
+
+.insideNav {
+    padding: 0 35px;
+    margin: 10px 10px;
+    background-color: white;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+article {
+    width: 50%;
+    background-color: var(--primaryBlue);
+    padding: 8px 4%;
+    margin: 4% 0;
+}
+
+.articleAsideDiv {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.insideArticle {
+    background-color: var(--secondaryBlue);
+    padding: 10px 12px;
+    margin: 8% -12px;
+    width: 100%;
+    font-size: 25px;
+}
+
+aside {
+    background-color: var(--primaryGrey);
+    width: 30%;
+    padding: 5%;
+    margin: 18px;
+    height: 247px;
+}
+
+.asideContent {
+    padding: 35px;
+    margin-top: 15px;
+    background-color: var(--secondaryGrey);
+}
+
+footer {
+    padding: 29px;
+    background-color: var(--primaryOrange);
+    width: 78%;
+    margin-left: 28px;
+}
